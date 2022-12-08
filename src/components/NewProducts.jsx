@@ -10,10 +10,10 @@ const NewProducts = () => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src="images/carousel1.webp" className="d-block w-100" alt="..."/>
+                            <img src="https://www.bullpadel.com/themes/at_nova/assets/img/modules/leoslideshow/PAQUITO-WEB.png" className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                            <img src="images/carousel2.webp" className="d-block w-100" alt="..."/>
+                            <img src="https://www.bullpadel.com/themes/at_nova/assets/img/modules/leoslideshow/WEB34.jpg" className="d-block w-100" alt="..."/>
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

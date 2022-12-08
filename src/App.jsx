@@ -1,19 +1,25 @@
 import React from "react";
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Footer from "./components/Footer";
+// import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
-import Main from "./components/Main";
 import NavBar from "./components/NavBar";
 import NewProducts from "./components/NewProducts";
 
-const App = () => {
+function App() {
   return(
-    <div>
+    <BrowserRouter>
       <NavBar/>
-      <ItemListContainer greeting={"¡¡Compre su Bullpadel al mejor precio en Argentina!!"}/>
+      <Routes>
+        <Route/>
+        <Route/>
+        <Route/>
+        <Route/>
+      </Routes>
       <NewProducts/>
-      <Main/>
+      <ItemListContainer/>
       <Footer/>
-    </div>
+    </BrowserRouter>
   )
 }
 export default App;
